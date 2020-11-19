@@ -1,0 +1,10 @@
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class onClick : MonoBehaviour
+{   
+    public void beginGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+}
